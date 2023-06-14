@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ebebeb;
+    color: #777;
+    line-height: 1.4;
+}
+
+.btn {
+    margin-top: 2rem;
+    margin-bottom: 0.9rem;
+    cursor: pointer;
+    border: none;
+    background: #937be2;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem 3.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.container {
+    background: #fff;
+    max-width: 800px;
+    margin: 8rem auto;
+    padding: 4rem;
+    box-shadow: 0 15px 10px rgba(172, 172, 172, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main-title p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 2rem 0;
+}
+
+#calculation-box {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+#calculation-box .box h2 {
+    color: #555;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#calculation-box .box input,
+.box-total input {
+    border: none;
+    border-bottom: 2px solid #919191;
+    width: 15%;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#calculation-box .box input:focus,
+.box-total input:focus {
+    outline: none;
+}
+
+#calculation-box .box input::-webkit-outer-spin-button,
+#calculation-box .box input::-webkit-inner-spin-button,
+.box-total input::-webkit-outer-spin-button,
+.box-total input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#info p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#info a {
+    color: #937be2;
+}
+
+#info a:hover {
+    text-decoration: none;
+    color: #555;
+}
